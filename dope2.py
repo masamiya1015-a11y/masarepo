@@ -21,7 +21,7 @@ G = 9.81
 st.title("Double Pendulum Simulator")
 
 # サイドバー：パラメータ入力
-st.sidebar.header("Parameters")
+st.sidebar.header("Parammmeters")
 L1 = st.sidebar.number_input("L1 (m)", value=1.0, format="%.2f")
 L2 = st.sidebar.number_input("L2 (m)", value=0.5, format="%.2f")
 M1 = st.sidebar.number_input("M1 (kg)", value=1.0, format="%.2f")
